@@ -1,5 +1,6 @@
 scipy>=1.4.1
 librosa
+hdbscan
 jamo
 PyYAML>=5.1.2
 soundfile>=0.12.1
