@@ -10,7 +10,7 @@ import sklearn
 import numpy as np
 
 from sklearn.cluster._kmeans import k_means
-from sklearn.cluster import HDBSCAN
+import hdbscan
 
 
 class SpectralCluster:
