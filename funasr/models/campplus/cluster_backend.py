@@ -124,7 +124,7 @@ class UmapHdbscan:
             n_components=min(self.n_components, X.shape[0] - 2),
             metric=self.metric,
         ).fit_transform(X)
-        labels = HDBSCAN(
+        labels = hdbscan(
             min_samples=self.min_samples,
             min_cluster_size=self.min_cluster_size,
             allow_single_cluster=True,
